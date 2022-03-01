@@ -57,7 +57,7 @@
       "plugin:@typescript-eslint/eslint-recommended",
       "plugin:@typescript-eslint/recommended",
       "plugin:@typescript-eslint/recommended-requiring-type-checking",
-      "prettier/@typescript-eslint"
+      "prettier"
     ],
     "rules": {
       "@typescript-eslint/no-explicit-any": "off",
@@ -87,6 +87,8 @@
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.1",
     "@types/jest": "^27.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
     "eslint": "^8.10.0",
     "eslint-config-prettier": "^8.4.0",
     "eslint-plugin-tsdoc": "^0.2.14",
@@ -95,6 +97,6 @@
     "ts-jest": "^27.1.3",
     "typedoc": "^0.22.12",
     "typedoc-plugin-markdown": "^3.11.14",
-    "typescript": "^4.5.5"
+    "typescript": "^4.6.2"
   }
 }
