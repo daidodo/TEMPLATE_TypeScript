@@ -29,8 +29,7 @@
   },
   "homepage": "https://github.com/daidodo/prereq#readme",
   "jest": {
-    "preset": "ts-jest",
-    "testEnvironment": "node"
+    "preset": "ts-jest"
   },
   "prettier": {
     "singleQuote": true,
