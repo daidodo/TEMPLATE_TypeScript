@@ -1,7 +1,18 @@
 {
   "name": "PROJECT_NAME",
-  "version": "0.0.1",
   "description": "PROJECT DESCRIPTION.",
+  "bugs": {
+    "url": "https://github.com/daidodo/PROJECT_NAME/issues"
+  },
+  "homepage": "https://github.com/daidodo/PROJECT_NAME#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daidodo/PROJECT_NAME.git"
+  },
+  "keywords": [
+    "PROJECT KEYWORD"
+  ],
+  "version": "0.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
@@ -16,19 +27,8 @@
     "docs": "rm -rf docs && typedoc",
     "prepublishOnly": "npm run clean && npm i && tsc && jest src/ && eslint src/"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/daidodo/PROJECT_URL.git"
-  },
-  "keywords": [
-    "PROJECT KEYWORD"
-  ],
   "author": "Zhao DAI <daidodo@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/daidodo/prereq/issues"
-  },
-  "homepage": "https://github.com/daidodo/prereq#readme",
   "jest": {
     "preset": "ts-jest"
   },
