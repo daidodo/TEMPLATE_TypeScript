@@ -25,7 +25,7 @@
     "clean": "rm -rf dist",
     "cleanall": "rm -rf dist node_modules *.tgz docs",
     "docs": "rm -rf docs && typedoc",
-    "prepublishOnly": "npm run clean && npm i && tsc && jest src/ && eslint src/"
+    "prepublishOnly": "npm run clean && npm i && tsc && eslint src/ && jest src/"
   },
   "author": "Zhao DAI <daidodo@gmail.com>",
   "license": "MIT",
