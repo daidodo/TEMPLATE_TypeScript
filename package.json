@@ -83,9 +83,9 @@
     "@tsconfig/recommended": "^1.0.1",
     "@types/babel__core": "^7.1.20",
     "@types/jest": "^29.2.3",
-    "@typescript-eslint/eslint-plugin": "^5.44.0",
-    "@typescript-eslint/parser": "^5.44.0",
-    "eslint": "^8.28.0",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint": "^8.29.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-jest": "^27.1.6",
     "eslint-plugin-tsdoc": "^0.2.17",
@@ -93,7 +93,7 @@
     "prettier": "^2.8.0",
     "ts-jest": "^29.0.3",
     "typedoc": "^0.23.21",
-    "typedoc-plugin-markdown": "^3.13.6",
+    "typedoc-plugin-markdown": "^3.14.0",
     "typescript": "^4.9.3"
   }
 }
