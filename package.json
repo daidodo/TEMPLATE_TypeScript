@@ -30,7 +30,8 @@
   "author": "Zhao DAI <daidodo@gmail.com>",
   "license": "MIT",
   "jest": {
-    "preset": "ts-jest"
+    "preset": "ts-jest",
+    "testEnvironment": "node"
   },
   "prettier": {
     "singleQuote": true,
