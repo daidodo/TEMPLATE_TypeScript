@@ -20,12 +20,12 @@
     "compile": "tsc",
     "compile:watch": "tsc -w",
     "build": "npm run compile",
-    "test": "jest src/",
+    "test": "eslint src/ && jest src/",
     "test:watch": "jest --watch src/",
     "clean": "rm -rf dist",
     "cleanall": "rm -rf dist node_modules *.tgz docs",
     "docs": "rm -rf docs && typedoc --plugin typedoc-plugin-markdown",
-    "prepublishOnly": "npm run clean && npm i && tsc && eslint src/ && jest src/"
+    "prepublishOnly": "npm run clean && npm i && npm run build && npm run test"
   },
   "author": "Zhao DAI <daidodo@gmail.com>",
   "license": "MIT",
@@ -42,16 +42,16 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.32.0",
-    "@tsconfig/recommended": "^1.0.8",
+    "@tsconfig/recommended": "^1.0.10",
     "@types/babel__core": "^7.20.5",
     "@types/jest": "^29.5.14",
     "eslint": "^9.32.0",
     "jest": "^29.7.0",
     "prettier": "^3.6.2",
-    "ts-jest": "^29.2.5",
-    "typedoc": "^0.27.6",
-    "typedoc-plugin-markdown": "^4.4.1",
-    "typescript": "^5.7.3",
+    "ts-jest": "^29.4.0",
+    "typedoc": "^0.27.9",
+    "typedoc-plugin-markdown": "^4.8.0",
+    "typescript": "^5.9.2",
     "typescript-eslint": "^8.38.0"
   }
 }
